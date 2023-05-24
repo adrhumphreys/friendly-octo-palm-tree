@@ -35,8 +35,8 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={inter.variable}>
+    <html lang="en" className="h-full bg-white">
+      <body className={`${inter.variable} h-full`}>
         <Providers>
           <Toaster />
           <Header />

@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3123",
     "build": "prisma generate && prisma db push && next build",
     "start": "next start",
     "lint": "next lint",
